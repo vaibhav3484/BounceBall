@@ -1,0 +1,43 @@
+
+.container{
+    background-color: skyblue;
+    border-style: solid;
+    width: absolute;
+    height: 60vh;
+  position: relative; 
+}
+.ball{
+    width: 40px;
+    height: 40px;
+    border-radius: 2cm;
+    bottom:0%;
+    left:0%;
+    position:absolute;
+    background-color: rgb(227, 19, 54);
+    animation: bounceballx 9s linear infinite, bouncebally 1s ease-out infinite alternate; 
+ }
+@keyframes bounceballx {
+    from{
+        left:0%;
+    }
+    to{
+        left:100%;
+    }
+    
+}
+@keyframes bouncebally {
+    from{
+    bottom:0%;
+    }
+    to{
+    bottom:80%;
+    }
+    
+}
+
+h2{
+    text-align-last: center;
+    border-style: solid;
+  
+    
+}
